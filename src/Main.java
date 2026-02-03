@@ -81,7 +81,13 @@ public class Main {
 
         System.out.println("\n************** Figura:\n");
 
+        Quadrat q1 = new Quadrat(20.5);
 
+        System.out.println("Cuadrado base: " + q1.calcularArea());
+
+        Rectangle r1 = new Rectangle(22.16, 13.50);
+
+        System.out.println("Rectangulo base: " + r1.calcularArea());
 
     }
 }
